@@ -7,9 +7,9 @@ document.getElementById("sub").addEventListener("click", function () {
     
     if (find === search.value) {
 
-        var y = link.href = "./halltickets/" + find + ".pdf";
+        var y = link.href = "./data/hallticket/" + find + ".pdf";
         const img = document.createElement("pdf");
-        const t = img.src = "./halltickets/" + find + ".pdf";
+        const t = img.src = "./data/hallticket/" + find + ".pdf";
 
         image.appendChild(img)
         link.textContent = y;
